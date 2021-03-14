@@ -1,12 +1,10 @@
 using Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Domain;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 using System;
-using MediatR;
 using Application.Activities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
